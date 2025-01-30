@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/9de12ae1-7e73-42a8-a57a-707002b32c1f)
 
 # DevOps Kubernetes Setup
 
