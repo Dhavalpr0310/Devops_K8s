@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: clone-deployment
+  labels:
+    app: clone
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app : clone
+  template:
+    metadata:
+      labels:
+        app: clone
+    spec:
+      containers:
+      - name: clone
+        image: dhavalpr0310/clone:v1
+        ports:
+        - containerPort: 5000
